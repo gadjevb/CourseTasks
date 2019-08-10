@@ -1,0 +1,17 @@
+@import "~bootstrap/scss/bootstrap";
+$font: "Courier New";
+$logo-margin: 100px;
+
+img {
+    margin-top: $logo-margin;
+    margin-bottom: $logo-margin;
+}
+
+input[type='text'] {
+    font-family: $font;
+}
+
+#logo {
+    width: 480px;
+    height: 120px;
+}
